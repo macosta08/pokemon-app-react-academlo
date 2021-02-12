@@ -38,6 +38,15 @@ export const RadioButton = ({setNumPokes}) => {
 			  onChange={handleInputRadioPokemon}
 			/>
 		  </Col>
+		  <Col>
+			<Form.Check
+			  name="formRadios"
+			  type="radio"
+			  label="50"
+			  value={50}
+			  onChange={handleInputRadioPokemon}
+			/>
+		  </Col>
 		</Form.Group>
 	  </fieldset>
 	)
